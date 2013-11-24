@@ -279,7 +279,7 @@
     <string-array name="shortcut_action_entries">
         <item>@string/shortcut_action_back</item>
         <item>@string/shortcut_action_app</item>
-	<item>@string/shortcut_action_expanded_desktop</item>
+        <item>@string/shortcut_action_expanded_desktop</item>
         <item>@string/shortcut_action_home</item>
         <item>@string/shortcut_action_kill</item>
         <item>@string/shortcut_action_lastapp</item>
@@ -298,7 +298,7 @@
     <string-array name="shortcut_action_values" translatable="false">
         <item>**back**</item>
         <item>**app**</item>
-	<item>**expanded_desktop**</item>
+        <item>**expanded_desktop**</item>
         <item>**home**</item>
         <item>**kill**</item>
         <item>**lastapp**</item>
@@ -476,7 +476,7 @@
 
     <string-array name="shortcut_action_navring_entries">
         <item>@string/shortcut_action_app</item>
-	<item>@string/shortcut_action_expanded_desktop</item>
+        <item>@string/shortcut_action_expanded_desktop</item>
         <item>@string/shortcut_action_kill</item>
         <item>@string/shortcut_action_lastapp</item>
         <item>@string/shortcut_action_notifications</item>
@@ -495,7 +495,7 @@
 
     <string-array name="shortcut_action_navring_values" translatable="false">
         <item>**app**</item>
-	<item>**expanded_desktop**</item>
+        <item>**expanded_desktop**</item>
         <item>**kill**</item>
         <item>**lastapp**</item>
         <item>**notifications**</item>
@@ -515,7 +515,7 @@
     <string-array name="shortcut_action_power_menu_entries">
         <item>@string/shortcut_action_airplane</item>
         <item>@string/shortcut_action_app</item>
-	<item>@string/shortcut_action_expanded_desktop</item>
+        <item>@string/shortcut_action_expanded_desktop</item>
         <item>@string/shortcut_action_power_off</item>
         <item>@string/shortcut_action_reboot</item>
         <item>@string/shortcut_action_screenshot</item>
@@ -525,7 +525,7 @@
     <string-array name="shortcut_action_power_menu_values" translatable="false">
         <item>**airplane**</item>
         <item>**app**</item>
-	<item>**expanded_desktop**</item>
+        <item>**expanded_desktop**</item>
         <item>**poweroff**</item>
         <item>**reboot**</item>
         <item>**screenshot**</item>
@@ -624,6 +624,59 @@
         <item>ic_lockscreen_rss_normal</item>
         <item>ic_lockscreen_google_normal</item>
         <item>ic_lockscreen_twitter_normal</item>
+    </string-array>
+
+    <!-- Halo -->
+    <string-array name="entries_halo_state">
+        <item>@string/halo_state_black</item>
+        <item>@string/halo_state_white</item>
+    </string-array>
+
+    <string-array name="values_halo_state" translatable="false">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="entries_halo_size">
+        <item>@string/halo_size_miniscule</item>
+        <item>@string/halo_size_small</item>
+        <item>@string/halo_size_default</item>
+        <item>@string/halo_size_large</item>
+        <item>@string/halo_size_gigantic</item>
+        <item>@string/halo_size_monster</item>
+    </string-array>
+   
+    <string-array name="values_halo_size" translatable="false">
+        <item>0.6</item>
+        <item>0.8</item>
+        <item>1.0</item>
+        <item>1.2</item>
+        <item>1.4</item>
+        <item>1.6</item>
+    </string-array>
+
+    <string-array name="entries_halo_notification_count">
+        <item>@string/halo_notification_count_none</item>
+        <item>@string/halo_notification_count_total</item>
+        <item>@string/halo_notification_count_individual</item>
+        <item>@string/halo_notification_count_both</item>
+    </string-array>
+
+    <string-array name="values_halo_notification_count">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="entries_halo_msgbox_animation">
+        <item>@string/halo_msgbox_animation_none</item>
+        <item>@string/halo_msgbox_animation_flip</item>
+    </string-array>
+
+    <string-array name="values_halo_msgbox_animation">
+        <item>1</item>
+        <item>2</item>
     </string-array>
 
 </resources>
